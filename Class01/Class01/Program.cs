@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Class01
 {
     class Program
     {
@@ -49,9 +49,11 @@ namespace ConsoleApp1
             System.Console.WriteLine(arr2[1]);
             System.Console.WriteLine(arr2[2]);
 
-            System.Console.WriteLine(arr3[0,0]);
-            System.Console.WriteLine(arr3[1,0]);
-            System.Console.WriteLine(arr3[2,0]);
+            System.Console.WriteLine(arr3[0, 0]);
+            System.Console.WriteLine(arr3[1, 0]);
+            System.Console.WriteLine(arr3[2, 0]);
+
+            System.Console.ReadKey();
         }
     }
 }

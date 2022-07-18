@@ -1,0 +1,8 @@
+E:\sbstest\Class01\Class01\bin\Debug\Class01.exe.config
+E:\sbstest\Class01\Class01\bin\Debug\Class01.exe
+E:\sbstest\Class01\Class01\bin\Debug\Class01.pdb
+E:\sbstest\Class01\Class01\obj\Debug\Class01.csproj.AssemblyReference.cache
+E:\sbstest\Class01\Class01\obj\Debug\Class01.csproj.SuggestedBindingRedirects.cache
+E:\sbstest\Class01\Class01\obj\Debug\Class01.csproj.CoreCompileInputs.cache
+E:\sbstest\Class01\Class01\obj\Debug\Class01.exe
+E:\sbstest\Class01\Class01\obj\Debug\Class01.pdb
