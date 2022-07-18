@@ -1,0 +1,8 @@
+E:\sbstest\Assignment01\Assignment01\bin\Debug\Assignment01.exe.config
+E:\sbstest\Assignment01\Assignment01\bin\Debug\Assignment01.exe
+E:\sbstest\Assignment01\Assignment01\bin\Debug\Assignment01.pdb
+E:\sbstest\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.AssemblyReference.cache
+E:\sbstest\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.SuggestedBindingRedirects.cache
+E:\sbstest\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CoreCompileInputs.cache
+E:\sbstest\Assignment01\Assignment01\obj\Debug\Assignment01.exe
+E:\sbstest\Assignment01\Assignment01\obj\Debug\Assignment01.pdb
