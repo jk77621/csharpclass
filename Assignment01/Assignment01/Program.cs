@@ -18,27 +18,21 @@ namespace Assignment01
             char string3;
             int number1;
 
-            Console.WriteLine("Enter String1: ");
+            Console.Write("Enter String1: ");
             string1 = Console.ReadLine();
 
-            Console.WriteLine("Enter String2: ");
+            Console.Write("Enter String2: ");
             string2 = Console.ReadLine();
 
-            Console.Write("1. " + string1 + "\n");
-            Console.Write("2. " + string2 + "\n");
+            Console.WriteLine("1. " + string1 + "\n" + string2);
+            Console.WriteLine("2. " + $"{string1}\n{string2}");
+            Console.WriteLine("3. {1}\n{0}", string2, string1);
+            Console.WriteLine($"4. " + string1 + "\n" + string2);
 
-            Console.WriteLine("3. " + string1);
-            Console.WriteLine("4. " + string2);
-
-            Console.WriteLine("5. " + string1 + "\n" + string2);
-            Console.WriteLine("6. " + $"{string1}\n{string2}");
-            Console.WriteLine("7. {1}, {0}" , string1, string2);
-
-            Console.WriteLine("");
             Console.WriteLine("Enter Number1: ");
-            number1 = System.Console.Read();
+            number1 = Console.Read();
             string3 = (char)number1;
-            System.Console.Write(string3);
+            Console.Write(string3);
 
             Console.ReadKey();
         }
