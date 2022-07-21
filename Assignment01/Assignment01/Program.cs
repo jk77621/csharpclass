@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace Assignment01
 {
@@ -10,10 +11,6 @@ namespace Assignment01
     {
         static void Main(string[] args)
         {
-            /*
-            Console.WriteLine("Hello World");
-            */
-
             /*
             string string1;
             string string2;
@@ -23,7 +20,11 @@ namespace Assignment01
             int int1;
             float float1;
 
-            /*
+            /* Assignment01
+            Console.WriteLine("Hello World");
+            */
+
+            /* Assignment02
             Console.Write("Write String1: ");
             string1 = Console.ReadLine();
 
