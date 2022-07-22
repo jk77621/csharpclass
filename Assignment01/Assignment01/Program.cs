@@ -73,7 +73,6 @@ namespace Assignment01
             string6 = Console.ReadLine();
             float3 = float.Parse(string6);
 
-
             float4 = float2 + float3;
             Console.WriteLine("+ : " + float4);
 
