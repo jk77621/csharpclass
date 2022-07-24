@@ -25,6 +25,5 @@ namespace Class02
         {
             base.Hit(attackedamage);
         }
-
     }
 }
