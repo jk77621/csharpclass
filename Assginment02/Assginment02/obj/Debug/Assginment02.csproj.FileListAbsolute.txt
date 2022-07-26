@@ -1,0 +1,8 @@
+E:\csharpclass\Assginment02\Assginment02\bin\Debug\Assginment02.exe.config
+E:\csharpclass\Assginment02\Assginment02\bin\Debug\Assginment02.exe
+E:\csharpclass\Assginment02\Assginment02\bin\Debug\Assginment02.pdb
+E:\csharpclass\Assginment02\Assginment02\obj\Debug\Assginment02.csproj.AssemblyReference.cache
+E:\csharpclass\Assginment02\Assginment02\obj\Debug\Assginment02.csproj.SuggestedBindingRedirects.cache
+E:\csharpclass\Assginment02\Assginment02\obj\Debug\Assginment02.csproj.CoreCompileInputs.cache
+E:\csharpclass\Assginment02\Assginment02\obj\Debug\Assginment02.exe
+E:\csharpclass\Assginment02\Assginment02\obj\Debug\Assginment02.pdb
