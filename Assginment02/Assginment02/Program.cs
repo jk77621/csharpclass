@@ -36,7 +36,7 @@ namespace Assginment02
                 list[count].Add(type);
                 list[count].Add(number2);
 
-                result1 = Calculator(float.Parse(list[count][0]), float.Parse(list[count][2]), list[count][1]);
+                result1 = Calculator(float.Parse(list[count][0]), list[count][1], float.Parse(list[count][2]));
                 WriteLine("result : " + list[count][0] + " " + list[count][1] + " " + list[count][2] + " = " + result1.ToString());
                 WriteLine();
                 WriteLine();
@@ -56,7 +56,7 @@ namespace Assginment02
                 {
                     for (int i = 0; i < list.Count; ++i)
                     {
-                        result2 = Calculator(float.Parse(list[i][0]), float.Parse(list[i][2]), list[i][1]);
+                        result2 = Calculator(float.Parse(list[i][0]), list[i][1], float.Parse(list[count][2]));
                         WriteLine("result : " + list[i][0] + " " + list[i][1] + " " + list[i][2] + " = " + result2.ToString());
                     }
                     break;
@@ -72,7 +72,7 @@ namespace Assginment02
             ReadKey();
         }
 
-        static float Calculator(float number1, float number2, string type)
+        static float Calculator(float number1, string type, float number2)
         {
             float result;
             switch (type)
