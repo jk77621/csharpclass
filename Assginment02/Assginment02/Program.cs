@@ -11,6 +11,7 @@ namespace Assginment02
     {
         static void Main(string[] args)
         {
+            /* Assignment05
             string number1 = "";
             string number2 = "";
             string type = "";
@@ -69,6 +70,83 @@ namespace Assginment02
             }
 
             WriteLine("finish");
+            ReadKey();
+            */
+
+            for (int i = 0; i < 5; ++i)
+            {
+                for (int j = 0; j < i + 1; ++j)
+                {
+                    Write("*");
+                }
+                WriteLine();
+            }
+
+            WriteLine();
+            WriteLine();
+
+            int k = 4;
+            for (int i = 0; i < 5; ++i)
+            {
+                for (int j = 0; j < k - i; ++j)
+                {
+                    Write(" ");
+                }
+                for (int j = 0; j < i + 1; ++j)
+                {
+                    Write("*");
+                }
+                WriteLine();
+            }
+
+            WriteLine();
+            WriteLine();
+
+            int l = 4;
+            for (int i = 0; i < 5; ++i)
+            {
+                for (int j = 0; j < l - i; ++j)
+                {
+                    Write(" ");
+                }
+                for (int j = 0; j < (i * 2) + 1; ++j)
+                {
+                    Write("*");
+                }
+                WriteLine();
+            }
+
+            WriteLine();
+            WriteLine();
+
+            int p = 4;
+            for (int i = 0; i < 5; ++i)
+            {
+                for (int j = 0; j < p - i; ++j)
+                {
+                    Write(" ");
+                }
+                for (int j = 0; j < (i * 2) + 1; ++j)
+                {
+                    Write("*");
+                }
+                WriteLine();
+            }
+
+            int t = 7;
+            for (int i = 0; i < 4; ++i)
+            {
+                for (int j = 0; j < i + 1; ++j)
+                {
+                    Write(" ");
+                }
+                for (int j = 0; j < t - (i * 2); ++j)
+                {
+                    Write("*");
+                }
+                WriteLine();
+            }
+
             ReadKey();
         }
 
