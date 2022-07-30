@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KimchiSideDish.cs" />
+    <Compile Include="KoreanFood.cs" />
+    <Compile Include="MeatSideDish.cs" />
+    <Compile Include="PotatoRice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rice.cs" />
+    <Compile Include="SideDish.cs" />
+    <Compile Include="SweetPotatoRice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

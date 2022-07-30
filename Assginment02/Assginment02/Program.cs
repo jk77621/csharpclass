@@ -73,6 +73,7 @@ namespace Assginment02
             ReadKey();
             */
 
+            /* Assignment06
             for (int i = 0; i < 5; ++i)
             {
                 for (int j = 0; j < i + 1; ++j)
@@ -146,6 +147,40 @@ namespace Assginment02
                 }
                 WriteLine();
             }
+
+            ReadKey();
+            */
+
+            string name = "";
+            int carbohydrate = 0;
+            int spandrel = 0;
+            int calorie = 0;
+            int happiness = 0;
+
+            PotatoRice pr = new PotatoRice();
+            SweetPotatoRice sr = new SweetPotatoRice();
+            MeatSideDish ms = new MeatSideDish();
+            KimchiSideDish ks = new KimchiSideDish();
+
+            pr.Init();
+            sr.Init();
+            ms.Init();
+            ks.Init();
+
+            WriteLine($"{pr.name}, 탄수화물 : {pr.carbohydrate}, 공복 : {pr.spandrel}");
+            WriteLine($"{sr.name}, 탄수화물 : {sr.carbohydrate}, 공복 : {sr.spandrel}");
+            WriteLine($"{ms.name}, 행복도 : {ms.happiness}, 칼로리 : {ms.calorie}");
+            WriteLine($"{ks.name}, 행복도 : {ks.happiness}, 칼로리 : {ks.calorie}");
+            WriteLine();
+
+            name = "조재광";
+            carbohydrate = pr.Eat() + sr.Eat();
+            spandrel = pr.NotEat() + sr.NotEat();
+            calorie = ms.Eat() + ks.Eat();
+            happiness = ms.NotEat() + ks.NotEat();
+
+            WriteLine();
+            WriteLine($"{name}, 탄수화물 : {carbohydrate}, 공복 : {spandrel}, 칼로리 : {calorie}, 행복도 : {happiness}");
 
             ReadKey();
         }
