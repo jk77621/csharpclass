@@ -16,7 +16,7 @@ namespace Assignment03
             int count1 = 0;
             int count2 = 0;
             int count3 = 0;
-            int[] list = ReturnIntArray(random);
+            int[] list = ReturnIntArray1(random);
             string input = "";
 
             WriteLine("게임을 시작합니다!");
@@ -73,6 +73,7 @@ namespace Assignment03
             ReadKey();
             */
 
+            /* assignment08
             Random random = new Random();
             int[] arr = new int[5];
             int count1 = 0;
@@ -136,12 +137,100 @@ namespace Assignment03
 
             }
 
+            ReadKey();4
+            */
+
+            Random random = new Random();
+            int count1 = 0;
+            int count2 = 0;
+            int count3 = 0;
+            int count4 = 0;
+
+            string input1 = "";
+            string input2 = "";
+
+            WriteLine("게임을 시작합니다!");
+            Write("게임에서 사용할 숫자 개수를 입력해주세요.(2~8) : ");
+            input1 = ReadLine();
+            count4 = int.Parse(input1);
+            WriteLine();
+
+            int[] arr = ReturnIntArray2(random, count4);
+
+            while (true)
+            {
+                count2 = 0;
+                count3 = 0;
+
+                WriteLine("라운드  : " + (count1 + 1));
+                Write("확인하고 싶은 숫자 " + count4 + "개를 써주세요.(띄어쓰기 없음, 안적기 없음) : ");
+                input2 = ReadLine();
+
+                for (int i = 0; i < count4; ++i)
+                {
+                    for (int j = 0; j < count4; ++j)
+                    {
+                        if (arr[i].ToString() == input2[j].ToString())
+                        {
+                            if (i == j)
+                            {
+                                count2++;
+                            }
+                            else
+                            {
+                                count3++;
+                            }
+                        }
+                    }
+                }
+
+                Write("result : ");
+                if (count2 == count4)
+                {
+                    WriteLine("정답입니다!");
+                    break;
+                }
+                else if (count2 == 0 && count3 == 0)
+                {
+                    WriteLine("아웃입니다!");
+                }
+                else
+                {
+                    WriteLine("S = " + count2 + ", B = " + count3);
+                }
+                WriteLine();
+
+                count1++;
+            }
+
+            WriteLine();
+            Write("고생하셨습니다! 총 플레이 " + (count1 + 1) + "라운드 하셨습니다.");
+
             ReadKey();
         }
 
-        static int[] ReturnIntArray(Random _rand)
+        static int[] ReturnIntArray1(Random _rand)
         {
             int[] intArray = new int[3];
+            for (int num = 0; num < intArray.Length; num++)
+            {
+                intArray[num] = _rand.Next(0, 9);
+
+                for (int num2 = 0; num2 < num; num2++)
+                {
+                    if (intArray[num] == intArray[num2])
+                    {
+                        num--;
+                        break;
+                    }
+                }
+            }
+            return intArray;
+        }
+
+        static int[] ReturnIntArray2(Random _rand, int _length)
+        {
+            int[] intArray = new int[_length];
             for (int num = 0; num < intArray.Length; num++)
             {
                 intArray[num] = _rand.Next(0, 9);
