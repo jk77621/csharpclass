@@ -263,6 +263,6 @@ namespace Class04
  */
 
 /* 딕셔너리
- * 키갑을 통해 가지고 온다.
+ * 키값을 통해 가지고 온다.
  * Dictionary<string> dic = new Dictionary<string>
  */
