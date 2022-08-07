@@ -174,6 +174,7 @@ namespace Class04
 
             List<string> myList = new List<string>();
             myList.Add("조재광");
+            myList.Add("김소원");
             myList.Add("유승호");
             myList.Add("유승민");
             myList.Add("유승재");
@@ -240,7 +241,7 @@ namespace Class04
                 }
             }
 
-            WriteLine(myList[0] + " " + myList[1] + " " + myList[2] + " " + myList[3] + " " + myList[4] + " " + myList[5]);
+            WriteLine(myList[0] + " " + myList[1] + " " + myList[2] + " " + myList[3] + " " + myList[4] + " " + myList[5] + " " + myList[6]);
 
             ReadKey();
         }
