@@ -1,0 +1,8 @@
+E:\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.exe.config
+E:\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.exe
+E:\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.pdb
+E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.AssemblyReference.cache
+E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.SuggestedBindingRedirects.cache
+E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.CoreCompileInputs.cache
+E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.exe
+E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.pdb
