@@ -6,3 +6,10 @@ E:\csharpclass\Assignment03\Assignment03\bin\Debug\Assignment03.exe
 E:\csharpclass\Assignment03\Assignment03\bin\Debug\Assignment03.pdb
 E:\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.exe
 E:\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.pdb
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\bin\Debug\Assignment03.exe.config
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\bin\Debug\Assignment03.exe
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\bin\Debug\Assignment03.pdb
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.exe
+C:\Users\admin\Desktop\csharpclass\Assignment03\Assignment03\obj\Debug\Assignment03.pdb

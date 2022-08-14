@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\bin\Debug\Sokoban.exe.config
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\bin\Debug\Sokoban.exe
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\bin\Debug\Sokoban.pdb
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\obj\Debug\Sokoban.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\obj\Debug\Sokoban.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\obj\Debug\Sokoban.exe
+C:\Users\admin\Desktop\csharpclass\Sokoban\Sokoban\obj\Debug\Sokoban.pdb

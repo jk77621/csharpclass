@@ -6,3 +6,10 @@ E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.Suggested
 E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.CoreCompileInputs.cache
 E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.exe
 E:\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.pdb
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.exe.config
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.exe
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\bin\Debug\Assignment04.pdb
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.exe
+C:\Users\admin\Desktop\csharpclass\Assignment04\Assignment04\obj\Debug\Assignment04.pdb

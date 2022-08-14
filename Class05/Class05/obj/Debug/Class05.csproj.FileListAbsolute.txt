@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\obj\Debug\Class05.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\obj\Debug\Class05.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\bin\Debug\Class05.exe.config
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\bin\Debug\Class05.exe
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\bin\Debug\Class05.pdb
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\obj\Debug\Class05.exe
+C:\Users\admin\Desktop\csharpclass\Class05\Class05\obj\Debug\Class05.pdb

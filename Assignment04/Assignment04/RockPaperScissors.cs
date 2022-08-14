@@ -11,37 +11,24 @@ namespace Assignment04
     {
         public RockPaperScissors()
         {
-            Random rand = new Random();
-            this.Answer = rand.Next(0, 3);
         }
 
-        private int Answer { get; }
-
-        public void start()
+        public void run()
         {
+            Random rnd = new Random();
+            int numAnswer = rnd.Next(0, 3);
+
             WriteLine("컴퓨터가 가위, 바위, 보 중 랜덤으로 하나를 정합니다.");
-            WriteLine("컴퓨터를 이겨주세요.");
+            WriteLine("컴퓨터를 이겨주세요!");
 
             while (true)
             {
                 WriteLine();
-                Write("가위, 바위, 보 입력: ");
+                Write("숫자 입력(0:가위, 1:바위, 2:보) : ");
                 string strInput = ReadLine();
 
-                int numInput = 0;
-                switch (strInput)
-                {
-                    case "가위":
-                        numInput = 0;
-                        break;
-                    case "바위":
-                        numInput = 1;
-                        break;
-                    case "보":
-                        numInput = 2;
-                        break;
-                }
-
+                //enter, null, whitespace(s)가 입력될 경우 0으로 간주
+                int numInput = string.IsNullOrWhiteSpace(strInput) ? 0 : int.Parse(strInput);
                 switch (numInput)
                 {
                     case 0:
@@ -58,7 +45,7 @@ namespace Assignment04
                         break;
                 }
 
-                switch (this.Answer)
+                switch (numAnswer)
                 {
                     case 0:
                         WriteLine("컴퓨터의 선택은 가위입니다.");
@@ -71,8 +58,8 @@ namespace Assignment04
                         break;
                 }
 
-                // 무승부 승리 패배
-                int numResult = numInput - this.Answer;
+                // 무승부, 승리, 패배
+                int numResult = numInput - numAnswer;
                 if (numResult == 0)
                 {
                     WriteLine("무승부입니다!");
@@ -87,10 +74,11 @@ namespace Assignment04
                 }
 
                 WriteLine();
-                Write("다시 하시겠습니까?(y/n): ");
+                Write("다시 하시겠습니까?(y/n) : ");
                 string strRestart = ReadLine();
                 if (strRestart == "y")
                 {
+                    numAnswer = rnd.Next(0, 3);
                     continue;
                 }
                 else if (strRestart == "n")

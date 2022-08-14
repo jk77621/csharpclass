@@ -13,25 +13,25 @@ namespace Assignment04
         {
             ConsoleKeyInfo key;
             bool flag = true;
-            int nX = 2;
-            int nY = 2;
-            int nMinY = 2;
-            int nMaxY = 4;
+            int numX = 2;
+            int numY = 2;
+            int numMinY = 2;
+            int numMaxY = 4;
 
             CursorVisible = false;
 
             WriteLine("게임을 선택해주세요.");
 
-            SetCursorPosition(nX + 3, 2);
+            SetCursorPosition(numX + 3, numMinY);
             Write("숫자 맞추기 게임");
 
-            SetCursorPosition(nX + 3, 3);
+            SetCursorPosition(numX + 3, numMinY + 1);
             Write("가위바위보 게임");
 
-            SetCursorPosition(nX + 3, 4);
+            SetCursorPosition(numX + 3, numMinY + 2);
             Write("숫자 경주 게임");
 
-            SetCursorPosition(nX, nY);
+            SetCursorPosition(numX, numY);
 
             Write("▶");
 
@@ -44,63 +44,63 @@ namespace Assignment04
                 switch (key.Key)
                 {
                     case ConsoleKey.UpArrow:
-                        if (nY > nMinY) nY--;
+                        if (numY > numMinY) numY--;
 
                         WriteLine("게임을 선택해주세요.");
 
-                        SetCursorPosition(nX + 3, 2);
+                        SetCursorPosition(numX + 3, numMinY);
                         Write("숫자 맞추기 게임");
 
-                        SetCursorPosition(nX + 3, 3);
+                        SetCursorPosition(numX + 3, numMinY + 1);
                         Write("가위바위보 게임");
 
-                        SetCursorPosition(nX + 3, 4);
+                        SetCursorPosition(numX + 3, numMinY + 2);
                         Write("숫자 경주 게임");
 
-                        SetCursorPosition(nX, nY);
+                        SetCursorPosition(numX, numY);
 
                         Write("▶");
                         break;
                     case ConsoleKey.DownArrow:
-                        if (nY < nMaxY) nY++;
+                        if (numY < numMaxY) numY++;
 
                         WriteLine("게임을 선택해주세요.");
 
-                        SetCursorPosition(nX + 3, 2);
+                        SetCursorPosition(numX + 3, numMinY);
                         Write("숫자 맞추기 게임");
 
-                        SetCursorPosition(nX + 3, 3);
+                        SetCursorPosition(numX + 3, numMinY + 1);
                         Write("가위바위보 게임");
 
-                        SetCursorPosition(nX + 3, 4);
+                        SetCursorPosition(numX + 3, numMinY + 2);
                         Write("숫자 경주 게임");
 
-                        SetCursorPosition(nX, nY);
+                        SetCursorPosition(numX, numY);
 
                         Write("▶");
                         break;
                     case ConsoleKey.Enter:
-                        switch (nY) {
+                        switch (numY) {
                             case 2:
                                 NumberMatch numberMatch = new NumberMatch();
-                                numberMatch.start();
+                                numberMatch.run();
                                 break;
                             case 3:
                                 RockPaperScissors rockPaperScissors = new RockPaperScissors();
-                                rockPaperScissors.start();
+                                rockPaperScissors.run();
                                 break;
                             case 4:
                                 NumberRacing numberRacing = new NumberRacing();
-                                numberRacing.start();
+                                numberRacing.run();
                                 break;
                         }
 
                         flag = false;
                         break;
                 }
-
-                ReadKey();
             }
+
+            ReadKey();
         }
     }
 }
