@@ -33,7 +33,6 @@ namespace Assignment04
                 //enter, null, whitespace(s)가 입력될 경우 0으로 간주
                 //입력받은 숫자를 int형으로 변환한다.
                 int numInput = string.IsNullOrWhiteSpace(strInput) ? 0 : int.Parse(strInput);
-
                 if (numAnswer == numInput) //입력받은 숫자와 정답을 비교한다.
                 {
                     WriteLine();
