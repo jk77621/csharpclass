@@ -32,7 +32,7 @@ namespace Assignment04
                 ++run2; //3번말 1칸앞으로
                 ++run3; //4번말 1칸앞으로
 
-                int rndNum = rnd.Next(0, 4);
+                int rndNum = rnd.Next(0, 4); //랜덤으로 0~3의 숫자를 변수에 저장한다.
                 switch (rndNum)
                 {
                     case 0:
@@ -52,7 +52,7 @@ namespace Assignment04
                 Thread.Sleep(DELAY_TIME); //딜레이
                 Clear(); //화면 지우기
 
-                WriteLine(LINE);
+                WriteLine(LINE); //화면에 보여질 UI를 출력한다.
 
                 for (int i = 0; i < run0; i++)
                     Write(" ");
@@ -83,8 +83,8 @@ namespace Assignment04
                 WriteLine("|");
 
                 WriteLine(LINE);
-
-                if (run0 >= END_LINE || run1 >= END_LINE || run2 >= END_LINE || run3 >= END_LINE)
+       
+                if (run0 >= END_LINE || run1 >= END_LINE || run2 >= END_LINE || run3 >= END_LINE) //1~4번말 중 하나라도 끝에 지점에 도달하면 아래 내용을 출력한다.
                 {
                     int runNum = 0;
                     if (run0 >= END_LINE)

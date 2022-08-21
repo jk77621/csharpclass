@@ -16,7 +16,7 @@ namespace Assignment04
         public void run()
         {
             Random rnd = new Random();
-            int numAnswer = rnd.Next(0, 3);
+            int numAnswer = rnd.Next(0, 3); //0~2까지의 숫자중 정답을 하나 변수에 저장한다.
 
             WriteLine("컴퓨터가 가위, 바위, 보 중 랜덤으로 하나를 정합니다.");
             WriteLine("컴퓨터를 이겨주세요!");
@@ -25,9 +25,10 @@ namespace Assignment04
             {
                 WriteLine();
                 Write("숫자 입력(0:가위, 1:바위, 2:보) : ");
-                string strInput = ReadLine();
+                string strInput = ReadLine(); //숫자를 입력받는다.
 
                 //enter, null, whitespace(s)가 입력될 경우 0으로 간주
+                //입력받은 숫자를 int형으로 변환한다.
                 int numInput = string.IsNullOrWhiteSpace(strInput) ? 0 : int.Parse(strInput);
                 switch (numInput)
                 {
@@ -58,7 +59,7 @@ namespace Assignment04
                         break;
                 }
 
-                // 무승부, 승리, 패배
+                // 입력받은 숫자에서 정답을 뺀 값을 결과값에 저장한다.(무승부, 승리, 패배)
                 int numResult = numInput - numAnswer;
                 if (numResult == 0)
                 {
